@@ -1,0 +1,34 @@
+[alias]
+    st = status
+    ap = add -p
+    dlbr = branch -d
+    fdlbr = branch -D
+    drbr = push origin --delete 
+    br = branch -a
+    cm = commit
+    co = checkout
+    cob = checkout -b
+    cbr = branch --show-current
+    lg = log
+    lgp = log --pretty
+    lgpo = log --pretty=oneline
+    lgpom = log --author="kd-kinuthiadavid" --pretty=oneline
+    lgcbm = cherry -v main
+    lgcbd = cherry -v develop
+    plo = pull origin
+    df = diff
+    dfs = diff --staged
+    sh = stash
+    shl = stash list
+    sthp = stash pop
+    shs = stash save
+    sha = stash apply
+    rsts = restore --staged
+    rvm = revert -m 1
+[pull]
+	rebase = false
+[user]
+	email = kd.kinuthiadavid@gmail.com
+	name = kd-kinuthiadavid
+[init]
+	defaultBranch = main
